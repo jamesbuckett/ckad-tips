@@ -11,21 +11,17 @@ cp .bashrc .bashrc-original
 
 ```bash
 # Edit the .bashrc file
-vi .bashrc
+vi ~/.bashrc
 ```
 
 ```bash
-# Shift+G to go to the end of the file and add these
-# "i" to insert
-# ":x" to save and exit
-
 alias cls=clear
 alias k=kubectl
 alias kga="kubectl get all"
 
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
-export krr="kubectl run remote-run --image=busybox --rm -i --"
+export krr="kubectl run remote-run --image=busybox --restart=Never --rm -i --"
 ```
 
 The first two exports are to save keystrokes.
@@ -47,15 +43,15 @@ The last export is to provide an in cluster remote run capability.
 You are able to modify the .vimrc to avoid indentation and syntax issues.
 
 ```bash
-# vi .vimrc
-vi .vimrc
+vi ~/.vimrc
 ```
+
+To make vi use two spaces for a tab edit.
 
 ```bash
 set expandtab
 set tabstop=2
 set shiftwidth=2
-# :x - save and exit
 ```
 
 _End of Section_
