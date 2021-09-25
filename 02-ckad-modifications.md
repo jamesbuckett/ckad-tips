@@ -47,11 +47,6 @@ The last export is to provide an in cluster remote run capability.
 You are able to modify the .vimrc to avoid indentation and syntax issues.
 
 ```bash
-# First make a backup of the .bashrc
-cp .vimrc .vimrc-original
-```
-
-```bash
 # vi .vimrc
 vi .vimrc
 ```
