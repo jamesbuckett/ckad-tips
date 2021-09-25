@@ -38,10 +38,10 @@
 
 - 7.  If the your solution does not work try to troubleshoot if you think you know where the problem is
 
-- If a Pod is failing use these troubleshooting commands in this sequence:
-  - What is the overall status in the namespace: `kubectl get all`
-  - If the pod did not start look at the events related to the pod: `kubectl describe pod <problem-pod>`
-  - If the pod did start but is not behaving as expected, look at it's logs: `kubectl logs <problem-pod>`
-  - If you do not solve the problem and you are not clear on what the problem is, move to the next question.
+  - If a Pod is failing use these troubleshooting commands in this sequence:
+    - What is the overall status in the namespace: `kubectl get all`
+    - If the pod did not start look at the events related to the pod: `kubectl describe pod <problem-pod>`
+    - If the pod did start but is not behaving as expected, look at it's logs: `kubectl logs <problem-pod>`
+    - If you do not solve the problem and you are not clear on what the problem is, move to the next question.
 
 _End of Section_
