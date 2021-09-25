@@ -1,5 +1,7 @@
 ## CKAD Shell Modifications
 
+### .bashrc
+
 You are able to modify the .bashrc to add alias and exports to assist you in the CKAD exam.
 
 ```bash
@@ -38,6 +40,27 @@ The last export is to provide an in cluster remote run capability.
 ```bash
 # Initialize the .bashrc file
 . .bashrc
+```
+
+### .vimrc
+
+You are able to modify the .vimrc to avoid indentation and syntax issues.
+
+```bash
+# First make a backup of the .bashrc
+cp .vimrc .vimrc-original
+```
+
+```bash
+# vi .vimrc
+vi .vimrc
+```
+
+```bash
+set expandtab
+set tabstop=2
+set shiftwidth=2
+# :x - save and exit
 ```
 
 _End of Section_
