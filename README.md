@@ -10,8 +10,8 @@
 
 ## Tips and Tricks
 
-- [Approach to answering CKAD questions](https://github.com/jamesbuckett/ckad-questions/blob/main/01-ckad-design-build.md)
-- [Modifying the shell for the CKAD exam](https://github.com/jamesbuckett/ckad-questions/blob/main/03-ckad-deployment.md)
-- [Using tmux in the CKAD exam](https://github.com/jamesbuckett/ckad-questions/blob/main/04-ckad-services-networking.md)
+- [Approach to answering CKAD questions](https://github.com/jamesbuckett/ckad-tips/blob/main/01-ckad-approach.md)
+- [Modifying the shell for the CKAD exam](https://github.com/jamesbuckett/ckad-tips/blob/main/02-ckad-modifications.md)
+- [Using tmux in the CKAD exam](https://github.com/jamesbuckett/ckad-tips/blob/main/03-ckad-tmux.md)
 
 _End of Section_
