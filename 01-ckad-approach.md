@@ -2,7 +2,7 @@
 
 ```diff
 IMPORTANT
-- At the top of each question, if you will be given a command to set the current context.
+- At the top of each question, you may be given a command to set the current context.
 - Make sure to run it for each question as different questions will be in different clusters.
 ```
 
