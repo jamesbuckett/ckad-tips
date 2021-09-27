@@ -1,9 +1,10 @@
 ## Approach to answering questions in the CKAD Exam
 
-<span style="color:red">IMPORTANT</span>.
-
+```diff
+IMPORTANT
 - At the top of each question, if you will be given a command to set the current context.
 - Make sure to run it for each question as different questions will be in different clusters.
+```
 
 1. Read the Question
 
