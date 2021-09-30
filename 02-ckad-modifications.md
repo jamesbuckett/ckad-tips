@@ -27,12 +27,12 @@ export krr="kubectl run remote-run --image=busybox --restart=Never --rm -i --"
 
 The first two exports are to save keystrokes.
 
-    - `kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 $do > my-deploy.yml`
-    - `$kfc my-deploy.yml`
+    - kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 $do > my-deploy.yml
+    - $kfc my-deploy.yml
 
 The last export is to provide an in cluster remote run capability.
 
-    - `krr curl <my-service>:8080`
+    - $krr curl <my-service>:8080
 
 ```bash
 # Initialize the .bashrc file
