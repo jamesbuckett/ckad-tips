@@ -18,12 +18,16 @@ vi ~/.bashrc
 kubernetes.io: [Kubectl autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#bash)
 
 ```bash
+# kubectl autocomplete with alias
+source <(kubectl completion bash)
 alias k=kubectl
-complete -F __start_kubectl k # To enable autocompletion with the "k" alias
+complete -F __start_kubectl k
 
+# Alias
 alias cls=clear
 alias kga="kubectl get all"
 
+# Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
 export krr="kubectl run remote-run --image=busybox --restart=Never --rm -i --"
