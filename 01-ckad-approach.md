@@ -36,13 +36,15 @@ IMPORTANT
 
 - Copy and paste the snippet code from the left edge to try to preserve indentation when you paste into the YAML file
 
-6. Check your work
+6. Optional, you can check to see if the YAML file is valid by running: kubectl apply -f <my-file>.yml --dry-run 
+
+7. After running the command please check your work:
 
 - Run verification commands like:
   - `kubectl get all` to verify that Deployments are created, Pods are running
   - `kubectl get endpoints` to verify that the Service is load balancing to Pods
 
-7.  If the your solution does not work try to troubleshoot if you think you know where the problem is
+8.  If the your solution does not work try to troubleshoot if you think you know where the problem is:
 
 - If a Pod is failing use these troubleshooting commands in this sequence:
   - What is the overall status in the namespace: `kubectl get all`

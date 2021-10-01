@@ -15,9 +15,13 @@ cp .bashrc .bashrc-original
 vi ~/.bashrc
 ```
 
+kubernetes.io: [Kubectl autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#bash)
+
 ```bash
-alias cls=clear
 alias k=kubectl
+complete -F __start_kubectl k # To enable autocompletion with the "k" alias
+
+alias cls=clear
 alias kga="kubectl get all"
 
 export do="--dry-run=client -o yaml"
