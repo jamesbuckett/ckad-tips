@@ -55,9 +55,14 @@ vi ~/.vimrc
 To make vi use two spaces for a tab edit.
 
 ```bash
-set expandtab # The expandtab property will ensure that when you hit tab it will actually use spaces.
-set tabstop=2 # causes vim to use tabs with a width of 2 characters for indenting
-set shiftwidth=2 # causes vim to use tabs with a width of 2 characters for indenting
+set expandtab
+set tabstop=2
+set shiftwidth=2
 ```
+
+Explanation
+
+- The `expandtab` property will ensure that when you hit tab it will actually use spaces.
+- The `tabstop` and `shiftwidth` property causes vim to use tabs with a width of 2 characters for indenting
 
 _End of Section_
