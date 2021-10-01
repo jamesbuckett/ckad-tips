@@ -36,9 +36,13 @@ IMPORTANT
 
 - Copy and paste the snippet code from the left edge to try to preserve indentation when you paste into the YAML file
 
-6. Optional, you can check to see if the YAML file is valid by running: kubectl apply -f <my-file>.yml --dry-run 
+6. Optional, you can check to see if the YAML file is valid by running: kubectl apply -f <my-file>.yml --dry-run=client -o yaml
 
-7. After running the command please check your work:
+- If the YAML is valid it will display some YAML in the terminal
+- If the YAML has an indentation error you will get an error similar to this:
+  - `error: error parsing /root/ckad/my-file.yml: error converting YAML to JSON: yaml: line 21: did not find expected key`
+
+7. After applying the YAML file, please check your work:
 
 - Run verification commands like:
   - `kubectl get all` to verify that Deployments are created, Pods are running
