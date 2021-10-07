@@ -47,7 +47,7 @@ The last export is to provide an in cluster remote run capability.
 . .bashrc
 ```
 
-### .vimrc
+### .vimrc (Optional)
 
     * You are able to modify the .vimrc to avoid indentation and syntax issues.
     * The .vimrc file contains optional runtime configuration settings to initialize Vim when it starts.

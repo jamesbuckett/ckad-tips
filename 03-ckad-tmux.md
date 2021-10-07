@@ -14,7 +14,7 @@ CTRL+b    HOK   <right arrow> # Right arrow to move to right pane
 CTRL+b    HOK   <left arrow> # Left arrow to move to left pane
 ```
 
-### tmux over and under window
+### tmux over and under window (Preference for exam)
 
 ```bash
 tmux # Start Terminal Multiplexer
