@@ -30,7 +30,7 @@ alias kga="kubectl get all"
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
-export krr="kubectl run remote-run --image=busybox --restart=Never --rm -i --"
+export krr="kubectl run remote-run --image=nginx --restart=Never --rm -i --"
 ```
 
 The first two exports are to save keystrokes.
