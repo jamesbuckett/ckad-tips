@@ -30,7 +30,11 @@ alias kga="kubectl get all"
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
+<<<<<<< HEAD
 export krr="kubectl run remote-run --image=busybox --restart=Never --rm -it --"
+=======
+export krr="kubectl run remote-run --image=nginx --restart=Never --rm -i --"
+>>>>>>> f122d229f286d89f430037f8965d8ce7c9e32586
 ```
 
 The first two exports are to save keystrokes.
@@ -44,7 +48,7 @@ The last export is to provide an in cluster remote run capability. - `$krr` wget
 . .bashrc
 ```
 
-### .vimrc
+### .vimrc (Optional)
 
     * You are able to modify the .vimrc to avoid indentation and syntax issues.
     * The .vimrc file contains optional runtime configuration settings to initialize Vim when it starts.
