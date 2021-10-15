@@ -30,16 +30,15 @@ alias kga="kubectl get all"
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
-<<<<<<< HEAD
 export krr="kubectl run remote-run --image=busybox --restart=Never --rm -it --"
-=======
-export krr="kubectl run remote-run --image=nginx --restart=Never --rm -i --"
->>>>>>> f122d229f286d89f430037f8965d8ce7c9e32586
 ```
 
 The first two exports are to save keystrokes.
 
-Example use: - kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 `$do` > my-deploy.yml - `$kfc` my-deploy.yml
+Example use:
+
+- kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 `$do` > my-deploy.yml
+- `$kfc` my-deploy.yml
 
 The last export is to provide an in cluster remote run capability. - `$krr` wget -qO- <service>:8080
 
