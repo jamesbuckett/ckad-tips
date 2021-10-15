@@ -6,7 +6,7 @@
 - The .bashrc file is a script file that's executed when a user logs in
 
 ```bash
-# First make a backup of the .bashrc
+# Optional but good practice - make a backup of the .bashrc
 cp .bashrc .bashrc-original
 ```
 
@@ -15,7 +15,7 @@ cp .bashrc .bashrc-original
 vi ~/.bashrc
 ```
 
-kubernetes.io: [Kubectl autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#bash)
+kubernetes.io bookmark: [Kubectl autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#bash)
 
 ```bash
 # kubectl autocomplete with alias
@@ -30,17 +30,14 @@ alias kga="kubectl get all"
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
-export krr="kubectl run remote-run --image=busybox --restart=Never --rm -i --"
+export krr="kubectl run remote-run --image=busybox --restart=Never --rm -it --"
 ```
 
 The first two exports are to save keystrokes.
 
-    - kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 $do > my-deploy.yml
-    - $kfc my-deploy.yml
+Example use: - kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 `$do` > my-deploy.yml - `$kfc` my-deploy.yml
 
-The last export is to provide an in cluster remote run capability.
-
-    - $krr curl <my-service>:8080
+The last export is to provide an in cluster remote run capability. - `$krr` wget -qO- <service>:8080
 
 ```bash
 # Initialize the .bashrc file
