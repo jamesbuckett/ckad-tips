@@ -1,3 +1,12 @@
+## CKAD Environment Modifications
+
+### Mute Volume 
+
+* During the exam the proctor will only communicate with you via the chat window. 
+* The proctor DOES want the microphone active to hear if you are mouthing the questions.
+* You do not need the speakers, and in my case i had feedback sound for the duration of the exam
+* Go ahead and mute the speakers before the exam starts to avoid feedback during the exam.
+
 ## CKAD Shell Modifications
 
 ### .bashrc
