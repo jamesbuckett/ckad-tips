@@ -6,6 +6,7 @@
 * The proctor DOES want the microphone active to hear if you are mouthing the questions.
 * You do not need the speakers, and in my case i had feedback sound for the duration of the exam
 * Go ahead and mute the speakers before the exam starts to avoid feedback during the exam.
+<br />
 
 ## CKAD Shell Modifications
 
@@ -42,19 +43,18 @@ export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free t
 export krr="kubectl run remote-run --image=busybox --restart=Never --rm -it --"
 ```
 
-The first two exports are to save keystrokes.
-
-Example use:
-
+The first two exports are to save keystrokes on: `--dry-run=client -o yaml` and `kubectl apply -f`:
 - kubectl create deploy my-deploy --image=nginx --replicas=3 --port=80 `$do` > my-deploy.yml
 - `$kfc` my-deploy.yml
 
-The last export is to provide an in cluster remote run capability. - `$krr` wget -qO- <service>:8080
+The last export is to provide an in cluster diagnostics pod:
+- `$krr` wget -qO- <service>:8080
 
 ```bash
 # Initialize the .bashrc file
 . .bashrc
 ```
+<br />
 
 ### .vimrc (Optional)
 

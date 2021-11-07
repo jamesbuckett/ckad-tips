@@ -3,6 +3,7 @@
 You are able to use tmux in the CKAD shell.
 
 HOK = Hands Off Keyboard
+<br />
 
 ### tmux side by side window
 
@@ -13,6 +14,7 @@ CTRL+b    HOK   `%` # side by side window
 CTRL+b    HOK   <right arrow> # Right arrow to move to right pane
 CTRL+b    HOK   <left arrow> # Left arrow to move to left pane
 ```
+<br />
 
 ### tmux over and under window (Preference for exam)
 
