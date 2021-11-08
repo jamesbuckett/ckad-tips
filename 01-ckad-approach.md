@@ -32,13 +32,13 @@ IMPORTANT
 - Use the example command lines to create as much of the skeleton YAML as possible
 <br />
 
-4. If you cannot satisfy the entire question from the command line output the file for editing
+4. If you cannot satisfy the entire question from the command line output the file for editing:
 
 - `--dry-run=client -o yaml > <my-file>.yml`
 - When you create the YAML file, name the file after the question you are working on to aid in linking questions and YAML files for later review
 <br />
 
-5. When needed, use the [bookmarks](https://github.com/jamesbuckett/ckad-bookmarks) to obtain snippets of code to solve the question
+5. When needed, use the [bookmarks](https://github.com/jamesbuckett/ckad-bookmarks) to obtain snippets of code to solve the question:
 
 - Copy and paste the snippet code from the left edge to try to preserve indentation when you paste into the YAML file
 <br />
@@ -63,6 +63,7 @@ IMPORTANT
   - What is the overall status in the namespace: `kubectl get all`
   - If the pod did not start look at the events related to the pod: `kubectl describe pod <problem-pod>`
   - If the pod did start but is not behaving as expected, look at it's logs: `kubectl logs <problem-pod>`
+  - If you need to delete the pod with minimum delay use: `kubectl delete pod <problem-pod> --now`
   - If you do not solve the problem and you are not clear on what the problem is, move to the next question.
 
 _End of Section_
