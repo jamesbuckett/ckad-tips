@@ -12,6 +12,18 @@
 
 ### .bashrc
 
+[CKA & CKAD Environment](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad#cka-and-ckad-environment)
+
+For your convenience, all environments, in other words, the base system and the cluster nodes, have the following additional command-line tools pre-installed and pre-configured:
+* `kubectl` with k alias and Bash autocompletion
+    * source <(kubectl completion bash)
+    * alias k=kubectl
+    * complete -F __start_kubectl k
+* `jq` for YAML/JSON processing
+* `tmux` for terminal multiplexing
+* `curl` and `wget` for testing web services
+* `man` and man pages for further documentation
+
 - You are able to modify the .bashrc to add alias and exports to assist you in the CKAD exam.
 - The .bashrc file is a script file that's executed when a user logs in
 
@@ -28,11 +40,6 @@ vi ~/.bashrc
 kubernetes.io bookmark: [Kubectl autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#bash)
 
 ```bash
-# kubectl autocomplete with alias
-source <(kubectl completion bash)
-alias k=kubectl
-complete -F __start_kubectl k
-
 # Alias
 alias cls=clear
 alias kga="kubectl get all"
