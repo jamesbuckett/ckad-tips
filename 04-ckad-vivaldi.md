@@ -21,8 +21,13 @@ Download and install Vivaldi from [here](https://vivaldi.com/)
 Once Vivaldi is installed import the CKAD Bookmarks:
 * Accessing the Bookmark Manager 
 * Go to Start Page
-* Use a Keyboard Shortcut Ctrl+B / ⌃ ⌘ B 
+* Use a Keyboard Shortcut `Ctrl+B` / ⌃ `⌘ B` 
 * Top Right...Import button
 * Dropdown...Bookmarks HTML File...Choose File
+
+Bookmarks:
+* On the bookmark bar
+* Look for a folder that say `Imported`...`CKAD/CKA`
+* The imported bookmarks will be in this folder
 
 _End of Section_
