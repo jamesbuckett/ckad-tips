@@ -6,7 +6,7 @@ The new browser is usually [Vivaldi](https://vivaldi.com/)
 
 If this happens you will have to install the new browser, and you may not have time to import the bookmarks to use during the exam.
 
-If you are cautious like me I suggest you install Vivaldi in case you may have to make the switch and import the bookmarks ahead of time.
+If you are cautious like me I suggest you install Vivaldi in case you may have to make the switch and import the bookmarks ahead of time
 
 <br />
 
