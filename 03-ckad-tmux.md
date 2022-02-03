@@ -1,6 +1,6 @@
 ## tmux in the CKAD shell
 
-You are able to use tmux in the CKAD shell.
+You are able to use [tmux](https://github.com/tmux/tmux/wiki) in the CKAD shell.
 
 HOK = Hands Off Keyboard
 <br />

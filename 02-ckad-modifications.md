@@ -47,6 +47,7 @@ alias kga="kubectl get all"
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
+export now="--force --grace-period 0"
 export krr="kubectl run remote-run --image=busybox --restart=Never --rm -it --"
 ```
 

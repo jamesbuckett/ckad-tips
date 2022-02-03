@@ -2,7 +2,9 @@
 
 On some occasions the Chrome browser may have problems and the proctor will ask you to switch to a new browser.
 
-The new browser is usually [Vivaldi](https://vivaldi.com/)
+This usually occurs on macOS.
+
+The new browser is [Vivaldi](https://vivaldi.com/)
 
 If this happens you will have to install the new browser, and you may not have time to import the bookmarks to use during the exam.
 
