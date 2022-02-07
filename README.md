@@ -3,6 +3,8 @@
 - Some tips and tricks to assist in preparing for the [CKAD](https://www.cncf.io/certification/ckad/) exam.
 - [How is the exam proctored?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-is-the-exam-proctored)
 - [What are the system requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-system-requirements-to-take-the-exam)
+    * [Innovative Exams Screensharing Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
+    * [PSI In-application Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
 - [What are the Testing Environment requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-testing-environment-requirements-to-take-the-exam)
 - [What are the ID requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-id-requirements-to-take-the-exam)
 - [How long will the exam take?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-will-the-exam-take)
