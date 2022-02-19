@@ -1,5 +1,7 @@
 ## Vivaldi  
 
+File Updates and Fixes
+
 On some occasions the Chrome browser may have problems and the proctor will ask you to switch to a new browser.
 
 This usually occurs on macOS.

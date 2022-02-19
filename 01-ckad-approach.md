@@ -1,5 +1,7 @@
 ## Approach to answering questions in the CKAD Exam
 
+File Updates and Fixes
+
 ```diff
 IMPORTANT
 - At the top of each question, you may be given a command to set the current context. 👈👈👈

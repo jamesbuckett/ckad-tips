@@ -1,5 +1,7 @@
 ## CKAD Environment Modifications
 
+File Updates and Fixes
+
 ### Mute Volume 
 
 * During the exam the proctor will only communicate with you via the chat window. 

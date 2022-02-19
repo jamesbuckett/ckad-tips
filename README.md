@@ -1,6 +1,6 @@
 # CKAD tips and tricks
 
-A warm welcome to the CKAD Study Group for Q1 2022
+File Updates and Fixes
 
 - Some tips and tricks to assist in preparing for the [CKAD](https://www.cncf.io/certification/ckad/) exam.
 - [How is the exam proctored?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-is-the-exam-proctored)
