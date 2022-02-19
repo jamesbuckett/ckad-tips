@@ -1,18 +1,18 @@
 # CKAD tips and tricks
 
 - Some tips and tricks to assist in preparing for the [CKAD](https://www.cncf.io/certification/ckad/) exam.
-- [How is the exam proctored?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-is-the-exam-proctored)
-- [What are the system requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-system-requirements-to-take-the-exam)
-    * [Innovative Exams Screensharing Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
-    * [PSI In-application Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
-- [What are the Testing Environment requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-testing-environment-requirements-to-take-the-exam)
-- [What are the ID requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-id-requirements-to-take-the-exam)
-- [How long will the exam take?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-will-the-exam-take)
-- [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-score-is-needed-to-pass-the-exam)
-- [What resources am I allowed to access during my exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-resources-am-i-allowed-to-access-during-my-exam)
-- [What application version is running in the Exam Environment?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-application-version-is-running-in-the-exam-environment)
-- [How long is my certification valid for? ](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-is-my-certification-valid-for)
-- [Where can I find practice questions for CKA/CKAD/CKS?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#is-there-training-to-prepare-for-the-certification-exam)
+    - [How is the exam proctored?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-is-the-exam-proctored)
+    - [What are the system requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-system-requirements-to-take-the-exam)
+        * [Innovative Exams Screensharing Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
+        * [PSI In-application Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
+    - [What are the Testing Environment requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-testing-environment-requirements-to-take-the-exam)
+    - [What are the ID requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-id-requirements-to-take-the-exam)
+    - [How long will the exam take?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-will-the-exam-take)
+    - [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-score-is-needed-to-pass-the-exam)
+    - [What resources am I allowed to access during my exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-resources-am-i-allowed-to-access-during-my-exam)
+    - [What application version is running in the Exam Environment?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-application-version-is-running-in-the-exam-environment)
+    - [How long is my certification valid for? ](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-is-my-certification-valid-for)
+    - [Where can I find practice questions for CKA/CKAD/CKS?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#is-there-training-to-prepare-for-the-certification-exam)
 
 ![kubernetes-ckad-color-300x294](https://user-images.githubusercontent.com/18049790/135700785-5707813f-aec1-467e-9ece-ca627114f4d6.png)
 
