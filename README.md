@@ -1,7 +1,5 @@
 # CKAD tips and tricks
 
-File Updates and Fixes
-
 - Some tips and tricks to assist in preparing for the [CKAD](https://www.cncf.io/certification/ckad/) exam.
 - [How is the exam proctored?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-is-the-exam-proctored)
 - [What are the system requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-system-requirements-to-take-the-exam)

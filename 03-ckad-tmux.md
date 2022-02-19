@@ -1,7 +1,5 @@
 ## tmux in the CKAD shell
 
-File Updates and Fixes
-
 You are able to use [tmux](https://github.com/tmux/tmux/wiki) in the CKAD shell.
 
 HOK = Hands Off Keyboard
