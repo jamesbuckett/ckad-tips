@@ -13,8 +13,6 @@
 
 - [How is the exam proctored?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-is-the-exam-proctored)
 - [What are the system requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-system-requirements-to-take-the-exam)
-    * [Innovative Exams Screensharing Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
-    * [PSI In-application Extension](https://chrome.google.com/webstore/detail/psi-in-application-extens/leneiifcmnfminekdbgbofkdddlkhcep?hl=en)
 - [What are the Testing Environment requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-testing-environment-requirements-to-take-the-exam)
 - [What are the ID requirements to take the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-are-the-id-requirements-to-take-the-exam)
 - [How long will the exam take?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-will-the-exam-take)
@@ -23,6 +21,7 @@
 - [What application version is running in the Exam Environment?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-application-version-is-running-in-the-exam-environment)
 - [How long is my certification valid for? ](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#how-long-is-my-certification-valid-for)
 - [Where can I find practice questions for CKA/CKAD/CKS?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#is-there-training-to-prepare-for-the-certification-exam)
+    * [dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises)
 
 
 ## Tips and Tricks
