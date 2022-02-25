@@ -1,6 +1,6 @@
 # Kubernetes Short Names
 * To speed up imperative commands in the CKAD exam use Kubernetes Short Names
-* Kubernetes Short Names are abreviations of Kubernetes Resources
+* Kubernetes Short Names are abbreviations of Kubernetes Resource types
 * `kubectl create service` is the same as `kubectl create svc`
 <br />
 
