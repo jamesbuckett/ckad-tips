@@ -30,6 +30,8 @@ IMPORTANT
     - Expose: `kubectl expose -h` << This is faster as it does the label plumbing for you >>
     - Create: `kubectl create service -h`
 - Use the example command lines to create as much of the skeleton YAML as possible
+- Use [Kubernetes Short Names](https://github.com/jamesbuckett/ckad-tips/blob/main/05-api-resources.md) where ever possible
+  * `kubectl create svc` is the same as `kubectl create service`
 <br />
 
 4. If you cannot satisfy the entire question from the command line output the file for editing:
