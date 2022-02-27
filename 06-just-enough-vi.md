@@ -8,26 +8,20 @@
 * Pronounced (vee-aye), vi stands for visual instrument
 
 ## Important `vi` concepts
+
 * `vi` has two modes
-    * `command mode` - issue vi commands such as such as deleting, copying, search and replace, saving
-        * Arrow keys to move around the file: up,down and left and right
+    * `command mode` - issue vi commands such as deleting, copying, search and replace, saving
     * `insert mode` -  input or enter content into the file
       * You are in insert mode if you see `-- INSERT --` at the bottom of the file
-      * If in `insert mode` use `Esc` key to return to `command mode`
-* It is super important to know which mode you are in
+      * If you are in `-- INSERT --` mode, use the `Esc` key to return to `command mode`
 
-
-
+* You will be switching between these two modes while editing the file
+  * In `command mode` perform common actions such as navigation, search and save
+    * Once you are at the line you want to edit, you switch to `insert mode`
+  * In `insert mode` make text changes to the file 
+    * When done making changes you switch back to `command mode`  to save and exit
 
 ## `vi` examples
-
-<details class="faq box"><summary>Overview</summary>
-<p>
-
-![01-02](https://user-images.githubusercontent.com/18049790/136649495-9194b039-b88c-4e93-b493-83eb5e296aae.png)
-
-</p>
-</details>
 
 <details class="faq box"><summary>Create a sample configuration file</summary>
 <p>
