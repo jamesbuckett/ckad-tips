@@ -31,6 +31,7 @@
 - [Using tmux in the CKAD exam](https://github.com/jamesbuckett/ckad-tips/blob/main/03-ckad-tmux.md)
 - [Vivaldi Browser](https://github.com/jamesbuckett/ckad-tips/blob/main/04-ckad-vivaldi.md)
 - [Kubernetes Short Names](https://github.com/jamesbuckett/ckad-tips/blob/main/05-api-resources.md)
+- [Just enough vi](https://github.com/jamesbuckett/ckad-tips/blob/main/06-just-enough-vi.md)
 
 _End of Section_
 <br />
