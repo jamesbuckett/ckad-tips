@@ -127,8 +127,8 @@ Delete Content - While in `command mode`
 <p>
 
 Notes
-* `u` - Undo the last action (you may keep pressing u to keep undoing)
-* `U` (Note: capital) - Undo all changes to the current line
+* `:u` - Undo the last action (you may keep pressing u to keep undoing)
+* `:U` (Note: capital) - Undo all changes to the current line
 
 `command mode`: `Esc` key to return to command mode
 ![11-pre-undo](https://user-images.githubusercontent.com/18049790/155866899-262c771e-1dd8-42d7-a250-c1f1016495c1.jpg)
@@ -154,7 +154,7 @@ Notes
 </p>
 </details>
 
-<details class="faq box"><summary>Quit vi</summary>
+<details class="faq box"><summary>Quit without saving in vi</summary>
 <p>
 
 `command mode`: `Esc` key to return to command mode then `q!` = quit without saving
@@ -168,9 +168,10 @@ Notes
 <p>
 
 Save and Quit in `command mode`
-* `w` - write (save) file
-* `q` - quit file
-* `x` - write and quit file
+* `:w` - write (save) file
+* `:q` - quit file
+* `:wq` - write and quit file
+* `:x` - write and quit file
 
 `command mode`: `Esc` key to return to command mode then `:x` = Save and quit
 ![15-write-exit](https://user-images.githubusercontent.com/18049790/155867073-6d6ae69a-285e-4420-bea4-9a4c46fc6665.jpg)
