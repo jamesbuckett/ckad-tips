@@ -1,17 +1,19 @@
 06-just-enough-vi.md
 
-# Just Enough `vi`
+# Just Enough vi
 * This is an introduction to `vi` to assist you in preparing for the CKAD exam
 
-## What is `vi`
+## What is vi
 * vi is a screen editor for Linux, Unix and other Unix-like operating systems
 * Pronounced (vee-aye), vi stands for visual instrument
+* [vi](https://en.wikipedia.org/wiki/Vi) and [vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) are interchangeable
+* The examples below work for both vi and vim
 
-## Important `vi` concepts
+## Important vi/vim concepts
 
 * `vi` has two modes
-    * `command mode` - issue vi commands such as deleting, copying, search and replace and saving
-    * `-- INSERT -- mode` -  enter content or edit the file
+    * `command mode` - issue commands such as deleting, copying, saving and search and replace
+    * `-- INSERT -- mode` -  paste text or edit the file
       * You are in insert mode if you see `-- INSERT --` at the bottom of the file
       * If you are in `-- INSERT --` mode, use the `Esc` key to return to `command mode`
 
@@ -21,7 +23,7 @@
   * In `-- INSERT -- mode` make text changes to the file 
     * When done making changes you switch back to `command mode`  to save and exit
 
-## `vi` examples
+## vi/vim examples
 
 <details class="faq box"><summary>Create a sample configuration file</summary>
 <p>
