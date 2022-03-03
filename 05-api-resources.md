@@ -16,6 +16,7 @@
 | ing | ingress |
 | netpol | networkpolicies |
 | ev | events |
+| quota | resourcequotas |
 <br />
 
 ## kubectl api-resources 
