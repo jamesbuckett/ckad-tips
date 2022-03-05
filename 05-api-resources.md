@@ -18,6 +18,7 @@
 | pv | persistentvolumes |
 | pvc | persistentvolumeclaims |
 | ev | events |
+| quota | resourcequotas |
 <br />
 
 ## kubectl api-resources 

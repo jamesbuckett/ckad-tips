@@ -4,16 +4,14 @@
 * This is an introduction to `vi` to assist you in preparing for the CKAD exam
 
 ## What is vi
-* vi is a screen editor for Linux, Unix and other Unix-like operating systems
-* Pronounced (vee-aye), vi stands for visual instrument
-* [vi](https://en.wikipedia.org/wiki/Vi) and [vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) are interchangeable
-* The examples below work for both vi and vim
+* VIM is a screen editor for Linux, Unix and other Unix-like operating systems
+* VIM stands for Vi IMproved
 
-## Important vi/vim concepts
+## Important vi concepts
 
 * `vi` has two modes
-    * `command mode` - issue commands such as deleting, copying, saving and search and replace
-    * `-- INSERT -- mode` -  paste text or edit the file
+    * `command mode` - issue vi commands such as deleting, copying, search and replace and saving
+    * `-- INSERT -- mode` -  enter content or edit the file
       * You are in insert mode if you see `-- INSERT --` at the bottom of the file
       * If you are in `-- INSERT --` mode, use the `Esc` key to return to `command mode`
 
@@ -23,7 +21,7 @@
   * In `-- INSERT -- mode` make text changes to the file 
     * When done making changes you switch back to `command mode`  to save and exit
 
-## vi/vim examples
+## vi examples
 
 <details class="faq box"><summary>Create a sample configuration file</summary>
 <p>
@@ -89,7 +87,7 @@ In `command mode`: Arrow Keys [up,down,left,right]
 In `command mode`: `d+$` - Delete everything to end of line
 ![02-d$-to-eol](https://user-images.githubusercontent.com/18049790/155866904-519d794c-5aee-45ae-bac7-353c672de563.jpg)
 
-In `-- INSERT -- mode` : `a` = "after" this position, start typing replacement text
+Enter `-- INSERT -- mode` : `a` = "after" this position, start typing replacement text
 ![03-a-new-word](https://user-images.githubusercontent.com/18049790/155866905-2d6c03eb-db9d-4f66-929d-b0a8efecf008.jpg)
 
 </p>
@@ -105,10 +103,10 @@ Notes
 In `command mode`: Arrow Keys [up,down,left,right]
 ![04-replace-single-move-to](https://user-images.githubusercontent.com/18049790/155866906-56e21794-b043-44a9-9816-f58e6e8f6274.jpg)
 
-In `-- INSERT -- mode`: `r` = "replace" the character the cursor is at
+Enter `-- INSERT -- mode`: `r` = "replace" the character the cursor is at
 ![05-replace-single-move-to-R](https://user-images.githubusercontent.com/18049790/155866892-17097a03-218a-4b79-95d1-d1ce4bfa418c.jpg)
 
-In `command mode`: `Esc+x` - Escape key to return to command mode and `x` to save and quit
+In `command mode`: `Esc` - Escape key to return to command mode and `:x` to save and quit
 ![06-replace-single-move-to-esc-x](https://user-images.githubusercontent.com/18049790/155866893-e9f9f8c8-2773-4bab-9c61-81cb77886c0b.jpg)
 
 </p>
@@ -125,8 +123,10 @@ Notes - This is an important section
 * Shift `$` to move to the end of the line 
 * Type `a` to paste text "after" and puts you into `-- INSERT -- mode`
 * `Enter` key to create an empty line for the paste
-* Paste the code snippet into the file usually with Mouse Paste
+* Paste the code snippet into the file usually with Mouse Click Paste
 * Fix any indentation if required
+* Save and Exit 
+* Apply configuration file to API server
 
 </p>
 </details>
