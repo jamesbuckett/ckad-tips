@@ -144,7 +144,7 @@ Notes
 * To indent to the right use "Shift+>" - Not the Arrow Key but the Greater Than Key
 * To indent to the left use "Shift+<" - Not the Arrow Key but the Less Than Key
 * The number of spaces of indentation is determined by the value of set `tabstop=2` in the `.vimrc`
-* The indentation occurs, if you need to indent again repeat steps as above, select and indent till you are happy
+* The indentation occurs once, if you need to indent again repeat steps as above
 
 </p>
 </details>
