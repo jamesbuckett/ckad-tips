@@ -4,7 +4,7 @@
 * `kubectl create service` is the same as `kubectl create svc`
 <br />
 
-## Useful Kubernetes Short Names
+## Useful Kubernetes Short Names for the CKAD exam
 
 | Short Name | Long Name |
 | ------ | ----------- |
