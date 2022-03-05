@@ -15,6 +15,8 @@
 | deploy| deployments |
 | ing | ingress |
 | netpol | networkpolicies |
+| pv | persistentvolumes |
+| pvc | persistentvolumeclaims |
 | ev | events |
 <br />
 
