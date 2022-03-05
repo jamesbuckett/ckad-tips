@@ -5,7 +5,7 @@
 
 ## What is vi
 * vi or VIM is a screen editor for Linux, Unix and other Unix-like operating systems
-* VIM stands for Vi IMproved
+* VIM stands for Vi IMproved, this guide is applicable to both vi and VIM
 
 ## Important vi concepts
 
@@ -40,7 +40,7 @@ kubectl run pod-1 --image=nginx --dry-run=client -o yaml > ~/ckad/01-02.yml
 
 Notes
 * To start editing a file with `vi` type `vi` and the location of the file to be edited 
-* When you issue this command you are in automatically in `command mode` when the file opens
+* When you issue this command you are in automatically in `command` mode when the file opens
 
 ```bash
 clear
@@ -50,7 +50,7 @@ vi ~/ckad/01-02.yml
 <details class="faq box"><summary>Navigating a file in vi</summary>
 <p>
 
-Navigation - While in `command mode`
+Navigation - While in `command` mode
 * Arrow keys - move the cursor down, up, left and right 
 * `^` (caret) - move cursor to beginning of current line
 * `$` - move cursor to end of the current line
@@ -115,21 +115,40 @@ In `command` mode: `Esc` - Escape key to return to command mode and `:x` to save
 <details class="faq box"><summary>Paste a block of text in vi</summary>
 <p>
 
-Notes - This is an important section
+Notes
 * A few of the questions in the CKAD exam involve pasting a code snippet into a configuration file 
 * Copy the code snippet from the left border of the web page
 * Use arrow keys to move to where you want to paste the code snippet
 * Once you have verified that you are at the correct section for the paste 
 * Shift `$` to move to the end of the line 
-* Type `a` to paste text "after" and puts you into `-- INSERT -- mode`
-* `Enter` key to create an empty line for the paste
+* Type `o` will enter you in a line below  and put you into `insert` mode
 * Paste the code snippet into the file usually with Mouse Click Paste
-* Fix any indentation if required
+* If you need to fix indentation see next section (Multi-line indentation in vi)
 * Save and Exit 
 * Apply configuration file to API server
 
 </p>
 </details>
+
+<details class="faq box"><summary>Multi-line indentation in vi</summary>
+<p>
+
+Notes
+* If you pasted a snippet of code into a configuration file and the indentation is off
+* Move to the top of the code block that need to be indented 
+* Select the lines with "Shift+V", this will select one line
+* Use arrow keys to select multiple lines 
+* Move the arrow key down until you have selected the entire code snippet that needs to be indented
+* The selected lines will show as highlighted
+* vi will show "Visual Line" mode while you do this
+* To indent to the right use "Shift+>" - Not the Arrow Key but the Greater Than Key
+* To indent to the left use "Shift+<" - Not the Arrow Key but the Less Than Key
+* The number of spaces of indentation is determined by the value of set `tabstop=2` in the `.vimrc`
+* The indentation occurs, if you need to indent again repeat steps as above, select and indent till you are happy
+
+</p>
+</details>
+
 
 
 <details class="faq box"><summary>Search for a word in vi</summary>
