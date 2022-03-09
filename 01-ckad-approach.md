@@ -49,7 +49,8 @@ UNDER CONSIDERATION
 * Assume you need an example of a Deployment configuration
 * You find an example on this page: [Creating a Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) 
 * Right click `controllers/nginx-deployment.yaml`and Copy Link Address
-* In the terminal execute: `curl https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/controllers/nginx-deployment.yaml > deployment.yml
+* In the terminal execute:
+  * `curl https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/controllers/nginx-deployment.yaml > deployment.yml`
 * To be verified if this works 
 * To be verified if this is allowed
 
