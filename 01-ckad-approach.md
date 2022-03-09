@@ -43,9 +43,8 @@ IMPORTANT
 5. When needed, use the [bookmarks](https://github.com/jamesbuckett/ckad-bookmarks) to obtain snippets of code to solve the question:
 
 - Copy and paste the snippet code from the left edge to try to preserve indentation when you paste into the YAML file
-<br />
 
-UNDER CONSIDERATION
+UNDER CONSIDERATION AND TO BE VERIFIED - USE WITH CAUTION
 * Assume you need an example of a Deployment configuration
 * You find an example on this page: [Creating a Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) 
 * Right click `controllers/nginx-deployment.yaml`and Copy Link Address
@@ -54,7 +53,7 @@ UNDER CONSIDERATION
   * `curl https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/controllers/nginx-deployment.yaml > deployment.yml`
 * To be verified if this works 
 * To be verified if this is allowed
-
+<br />
 
 6. Optional, you can check to see if the YAML file is valid by running: `kubectl apply -f my-file.yml --dry-run=client -o yaml`
 
