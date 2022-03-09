@@ -45,6 +45,16 @@ IMPORTANT
 - Copy and paste the snippet code from the left edge to try to preserve indentation when you paste into the YAML file
 <br />
 
+```diff
+UNDER CONSIDERATION
+* Assume you need an example of a Deployment configuration
+* You find an example on this page: [Creating a Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) 
+* Right click `controllers/nginx-deployment.yaml`and Copy Link Address
+* In the terminal execute: `curl https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/controllers/nginx-deployment.yaml > deployment.yml
+* To be verified if this works 
+* To be verified if this is allowed
+```
+
 6. Optional, you can check to see if the YAML file is valid by running: `kubectl apply -f my-file.yml --dry-run=client -o yaml`
 
 - If the YAML is valid it will display some YAML in the terminal
