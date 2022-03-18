@@ -44,6 +44,12 @@ kubernetes.io bookmark: [Kubectl autocomplete](https://kubernetes.io/docs/refere
 alias cls=clear # Or "CTRL+L" clears the screen
 alias kga="kubectl get all"
 
+# An alias for the kubectl config set-context --current --namespace=ggckad-s2 command
+alias name='kubectl config set-context --current --namespace=$n'
+# Usage 
+# n=<some-namespace> (setting the value of "n")
+# name # execute the alias
+
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
