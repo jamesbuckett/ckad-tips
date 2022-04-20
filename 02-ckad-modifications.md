@@ -48,6 +48,10 @@ alias kga="kubectl get all"
 alias kx='f() { [ "$1" ] && kubectl config use-context $1 || kubectl config current-context ; } ; f'
 alias kn='f() { [ "$1" ] && kubectl config set-context --current --namespace $1 || kubectl config view --minify | grep namespace | cut -d" " -f6 ; } ; f'
 
+# Usage for kn
+# kn - prints current namespace
+# kn my-namespace - change into <my-namespace>
+
 # Exports
 export do="--dry-run=client -o yaml"
 export kfc="kubectl apply -f" # kfc is delicious and makes me happy, feel free to change to kaf
