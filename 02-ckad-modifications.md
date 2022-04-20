@@ -44,11 +44,9 @@ kubernetes.io bookmark: [Kubectl autocomplete](https://kubernetes.io/docs/refere
 alias cls=clear # Or "CTRL+L" clears the screen
 alias kga="kubectl get all"
 
-# An alias for the kubectl config set-context --current --namespace=ggckad-s2 command
-alias name='kubectl config set-context --current --namespace=$n'
-# Usage 
-# n=<some-namespace> (setting the value of "n")
-# name # execute the alias
+# short alias to set/show context/namespace (only works for bash and bash-compatible shells, current context to be set before using kn to set namespace) 
+alias kx='f() { [ "$1" ] && kubectl config use-context $1 || kubectl config current-context ; } ; f'
+alias kn='f() { [ "$1" ] && kubectl config set-context --current --namespace $1 || kubectl config view --minify | grep namespace | cut -d" " -f6 ; } ; f'
 
 # Exports
 export do="--dry-run=client -o yaml"
