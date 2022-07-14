@@ -33,4 +33,4 @@
 - [Just enough vi](https://github.com/jamesbuckett/ckad-tips/blob/main/06-just-enough-vi.md)
 
 
-<br />
+_End of Section_
