@@ -1,5 +1,9 @@
 ## Vivaldi  
 
+This section is for REFERENCE ONLY
+
+On the new exam platform [Firefox](https://www.mozilla.org/en-US/firefox/linux/) is the browser.
+
 On some occasions the Chrome browser may have problems and the proctor will ask you to switch to a new browser.
 
 This usually occurs on macOS.

@@ -28,11 +28,13 @@
 
 - [Approach to answering CKAD questions](https://github.com/jamesbuckett/ckad-tips/blob/main/01-ckad-approach.md)
 - [Modifying the shell for the CKAD exam](https://github.com/jamesbuckett/ckad-tips/blob/main/02-ckad-modifications.md)
-- [Using tmux in the CKAD exam](https://github.com/jamesbuckett/ckad-tips/blob/main/03-ckad-tmux.md)
 - [Kubernetes Short Names](https://github.com/jamesbuckett/ckad-tips/blob/main/05-api-resources.md)
 - [Just enough vi](https://github.com/jamesbuckett/ckad-tips/blob/main/06-just-enough-vi.md)
 
+## Firefox Browser
+
+- Firefox is the browser on the new exam platform 
+- Please be comfortable on how to perform searches using Firefox 
+- Specifically where Firefox renders results of a search
 
 _End of Section_
-
-This is an intentional edit

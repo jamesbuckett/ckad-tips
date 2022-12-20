@@ -1,5 +1,9 @@
 ## tmux in the CKAD shell
 
+This section is for REFERENCE ONLY
+
+On the new exam platform you can open multiple shells making `tmux` redundant.
+
 You are able to use [tmux](https://github.com/tmux/tmux/wiki) in the CKAD shell.
 
 HOK = Hands Off Keyboard
