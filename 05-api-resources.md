@@ -1,28 +1,32 @@
-# Kubernetes Short Names
-* To speed up imperative commands in the CKAD exam use Kubernetes Short Names
-* Kubernetes Short Names are abbreviations of Kubernetes Resource types
-* `kubectl create service` is the same as `kubectl create svc`
+# Kubernetes short names
+
+- To speed up imperative commands in the CKAD exam, use Kubernetes short names.
+- Kubernetes short names are abbreviations of Kubernetes resource types.
+- `kubectl create service` is the same as `kubectl create svc`.
+
 <br />
 
-## Useful Kubernetes Short Names for the CKAD exam
+## Useful Kubernetes short names for the CKAD exam
 
-| Short Name | Long Name |
-| ------ | ----------- |
-| ns | namespaces |
-| po | pods |
-| sa | serviceaccounts |
-| svc | services |
-| deploy| deployments |
-| ing | ingress |
-| netpol | networkpolicies |
-| pv | persistentvolumes |
-| pvc | persistentvolumeclaims |
-| ev | events |
-| quota | resourcequotas |
+| Short name | Long name              |
+| ---------- | ---------------------- |
+| ns         | namespaces             |
+| po         | pods                   |
+| sa         | serviceaccounts        |
+| svc        | services               |
+| deploy     | deployments            |
+| ing        | ingresses              |
+| netpol     | networkpolicies        |
+| pv         | persistentvolumes      |
+| pvc        | persistentvolumeclaims |
+| ev         | events                 |
+| quota      | resourcequotas         |
+
 <br />
 
-## kubectl api-resources 
-* The `kubectl api-resouces` command will give you a list of all the Kubernetes Short Names
+## kubectl api-resources
+
+- The `kubectl api-resources` command will give you a list of all the Kubernetes short names.
 
 
 ```console
