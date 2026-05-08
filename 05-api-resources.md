@@ -69,14 +69,11 @@ certificatesigningrequests        csr          certificates.k8s.io/v1           
 leases                                         coordination.k8s.io/v1                 true         Lease
 endpointslices                                 discovery.k8s.io/v1                    true         EndpointSlice
 events                            ev           events.k8s.io/v1                       true         Event
-flowschemas                                    flowcontrol.apiserver.k8s.io/v1beta1   false        FlowSchema
-prioritylevelconfigurations                    flowcontrol.apiserver.k8s.io/v1beta1   false        PriorityLevelConfiguration
 ingressclasses                                 networking.k8s.io/v1                   false        IngressClass
 ingresses                         ing          networking.k8s.io/v1                   true         Ingress
 networkpolicies                   netpol       networking.k8s.io/v1                   true         NetworkPolicy
 runtimeclasses                                 node.k8s.io/v1                         false        RuntimeClass
 poddisruptionbudgets              pdb          policy/v1                              true         PodDisruptionBudget
-podsecuritypolicies               psp          policy/v1beta1                         false        PodSecurityPolicy
 clusterrolebindings                            rbac.authorization.k8s.io/v1           false        ClusterRoleBinding
 clusterroles                                   rbac.authorization.k8s.io/v1           false        ClusterRole
 rolebindings                                   rbac.authorization.k8s.io/v1           true         RoleBinding
@@ -84,7 +81,6 @@ roles                                          rbac.authorization.k8s.io/v1     
 priorityclasses                   pc           scheduling.k8s.io/v1                   false        PriorityClass
 csidrivers                                     storage.k8s.io/v1                      false        CSIDriver
 csinodes                                       storage.k8s.io/v1                      false        CSINode
-csistoragecapacities                           storage.k8s.io/v1beta1                 true         CSIStorageCapacity
 storageclasses                    sc           storage.k8s.io/v1                      false        StorageClass
 volumeattachments                              storage.k8s.io/v1                      false        VolumeAttachment
 ```

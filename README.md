@@ -41,4 +41,12 @@
 - Please be comfortable with how to perform searches using Firefox.
 - Specifically, know where Firefox renders results of a search.
 
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on filing issues and opening pull requests.
+
+## License
+
+Released under the [Apache License 2.0](./LICENSE).
+
 _End of Section_

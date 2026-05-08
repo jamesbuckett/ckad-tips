@@ -3,11 +3,11 @@
 > [!NOTE]
 > This section is for **reference only**. On the new exam platform, [Firefox](https://www.mozilla.org/en-US/firefox/linux/) is the browser.
 
-On some occasions the Chrome browser may have problems and the proctor will ask you to switch to a new browser. This usually occurs on macOS. The replacement browser is [Vivaldi](https://vivaldi.com/).
+On some occasions Firefox may have problems and the proctor will ask you to switch to a backup browser. This usually occurs on macOS. The backup browser is [Vivaldi](https://vivaldi.com/).
 
-If this happens, you will have to install the new browser, and you may not have time to import the bookmarks to use during the exam.
+If this happens, you will have to install the backup browser mid-exam, and you may not have time to import the bookmarks to use during the exam.
 
-If you are cautious like me, I suggest you install Vivaldi in case you have to make the switch, and import the bookmarks ahead of time.
+If you are cautious like me, I suggest you install Vivaldi ahead of the exam in case you have to make the switch, and import the bookmarks at the same time.
 
 <br />
 
