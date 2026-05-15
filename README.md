@@ -1,5 +1,13 @@
 # CKAD tips and tricks
 
+[![License](https://img.shields.io/github/license/jamesbuckett/ckad-tips)](./LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/jamesbuckett/ckad-tips)](https://github.com/jamesbuckett/ckad-tips/commits/main)
+[![Issues](https://img.shields.io/github/issues/jamesbuckett/ckad-tips)](https://github.com/jamesbuckett/ckad-tips/issues)
+[![Repo size](https://img.shields.io/github/repo-size/jamesbuckett/ckad-tips)](https://github.com/jamesbuckett/ckad-tips)
+[![CNCF CKAD](https://img.shields.io/badge/CNCF-CKAD-blue?logo=kubernetes&logoColor=white)](https://www.cncf.io/certification/ckad/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
 - Some tips and tricks to assist in preparing for the [CKAD](https://www.cncf.io/certification/ckad/) exam.
 
 ![kubernetes-ckad-color-300x294](https://user-images.githubusercontent.com/18049790/135700785-5707813f-aec1-467e-9ece-ca627114f4d6.png)
